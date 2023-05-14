@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "cosm-script",
+    "cw-plus-script",
+]
