@@ -52,9 +52,4 @@ impl CW20<'_> {
 ```
 After implementing these traits you have the ability to use all the functions provided by the WasmInstantiate, WasmExecute, WasmQuery and WasmMigrate traits. This way our script calls are very ergonomic: 
 
-```
-    let token_info = cw20_token.query(Cw20QueryMsg::TokenInfo {}).await?;
-```
 
-# Contributing
-Feel free to open issues or PRs!
